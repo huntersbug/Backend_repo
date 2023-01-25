@@ -1,0 +1,6 @@
+db.userdata.find({region:"Asia"})
+db.userdata.find({currency: "EUR"})
+db.userdata.find({"timezones.gmtOffset":3600,"timezones.tzName":"Central European Time"})
+db.usedata.find({ "timezones" : { $gt : 1 }})
+db.usedata.find({ "timezones": { $size: { $gt : 1 } }})
+db.userdata.update({$pop: { timezones: -1}})

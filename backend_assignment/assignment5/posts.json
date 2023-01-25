@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Atomic habit",
+      "author": "james clear",
+      "content": "habit"
+    },
+    {
+      "id": 3,
+      "title": "Power of sunconcious mind",
+      "author": "james clear",
+      "content": "Mind is developed"
+    },
+    {
+      "id": 4,
+      "title": "Power of sunconcious mind",
+      "author": "james clear",
+      "content": "Mind is developed"
+    },
+    {
+      "id": 2,
+      "title": "Power of sunconcious mind",
+      "author": "james clear",
+      "content": "developed"
+    },
+    { "id": 1, "title": "Atomic ", "author": "james", "content": "habit" },
+    { "id": 1, "title": "Atomic ", "author": "james", "content": "habit" }
+  ]
+}

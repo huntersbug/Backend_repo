@@ -1,0 +1,12 @@
+
+db.userdata.find({$or:[{id:{$mod:[2,0]}},{family_members:{$mod:[2,0]}},{age:{$mod:[2,0]}}]})
+
+db.userdata.updateMany({$and:[{ gender:"Female"},{age:{$mod:[2,0]}}]},{$inc:{age:1}}
+
+
+db.userdata.find({native:"United States"},{age:{$lte:23}})
+
+db.userdata.updateMany({ $and: [ { age: { $lte: 23 } },{native:"United States"}]},{ $unset: { relocate_to: "" } })
+
+
+db.userdata.find().sort({family_members:1})
