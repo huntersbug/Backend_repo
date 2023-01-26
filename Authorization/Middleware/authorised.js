@@ -7,7 +7,7 @@ const authorization = (roles) => {
     const user = await SignupModel.findOne({ email });
     if (roles.includes(user.role)) {
       next();
-      res.send("not authenticated");
+      res.send(" authenticated");
     } else {
       res.send("not authenticated");
     }
